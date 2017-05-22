@@ -1,5 +1,7 @@
 # ReactNative-FileUpload
 已经实现文件上传功能。以下是关键代码,按照我的写法实现文件上传是没有问题的。有问题可以开个issues。给个Star，感谢！
+![演示](https://github.com/HAPENLY/ReactNative-FileUpload/blob/master/Upload.gif)
+![服务器文件](https://github.com/HAPENLY/ReactNative-FileUpload/blob/master/D5B9AA23-8D8F-4DAA-A374-F4189269D48F.png)
 ```
 //**************文件上传**************
     uploadImage(imgAry){
@@ -37,3 +39,6 @@
     .catch((error)=>{console.error('error=',error)});
     },
 ```
+
+
+
